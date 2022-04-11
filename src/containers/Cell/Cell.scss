@@ -1,0 +1,17 @@
+.cell {
+    width: 12.5%;
+    height: 12.5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background: #eeeed2;
+
+    &.odd {
+        background: #769656;
+    }
+
+    img {
+        width: 100%;
+    }
+}
